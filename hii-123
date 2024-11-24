@@ -1,0 +1,8 @@
+#we will create the repo 
+a=$1
+  if [[ $a = 1 ]]; then 
+echo "$a is a least number "
+  else 
+echo " it is not a least number "
+  fi 
+exit
